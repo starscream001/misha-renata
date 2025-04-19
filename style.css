@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.timeline li {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0 20px;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.form-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.form-section input {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.form-section button {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-section button:hover {
+  background-color: #444;
+}
